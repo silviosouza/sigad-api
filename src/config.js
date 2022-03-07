@@ -20,7 +20,7 @@ const { PORT,
 const sqlEncrypt = process.env.SQL_ENCRYPT === "true";
 
 // validate the required configuration information
-assert( PORT, "PORT configuration is required." );
+assert( PORT, 'PORT configuration is required.' );
 assert( HOST, "HOST configuration is required." );
 assert( HOST_URL, "HOST_URL configuration is required." );
 assert( COOKIE_ENCRYPT_PWD, "COOKIE_ENCRYPT_PWD configuration is required." );
