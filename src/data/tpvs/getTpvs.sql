@@ -1,0 +1,1 @@
+select * from tbl_tipo_veiculo ORDER BY tpv_descricao;

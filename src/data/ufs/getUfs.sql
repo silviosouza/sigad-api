@@ -1,0 +1,1 @@
+select tuf_sigla, tuf_descricao from tbl_uf ORDER BY tuf_descricao, tuf_sigla;

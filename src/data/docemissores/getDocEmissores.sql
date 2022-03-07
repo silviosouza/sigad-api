@@ -1,0 +1,1 @@
+select * from tbl_orgao_expedidor ORDER BY sigla;

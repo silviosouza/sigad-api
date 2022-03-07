@@ -1,0 +1,1 @@
+select * from tbl_tabelas where tab_codigo='3' AND tab_chave = @chaveId
