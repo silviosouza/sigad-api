@@ -9,8 +9,13 @@ module.exports.register = async server => {
    server.route( {
        method: "GET",
        path: "/",
+       config: {
+        cors: {
+            origin: ['*'], // an array of origins or 'ignore'
+        },
        handler: async ( request, h ) => {
            return "My first hapi server!";
        }
+    }
    } );
 };
